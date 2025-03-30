@@ -21,7 +21,8 @@ def demo_chatbot():
     llm = Bedrock(model_id="anthropic.claude-v2:1", client=bedrock_client, model_kwargs={'max_tokens_to_sample':512})
     return llm
     
-#     return demo_llm.invoke(input_text)
+#     return demo_llm.invoke(input_text) 
+#
 
 # response = demo_chatbot('What is the temperature in London like?')
 # print(response)
